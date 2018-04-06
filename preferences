@@ -1,0 +1,17 @@
+[server]
+host = 127.0.0.1
+port = 5000
+domain = dev.nogimono.tk
+
+[mysql]
+host = 127.0.0.1
+port = 3306
+user = root
+password = password
+database = nogimono
+
+[qiniu]
+domain = domain
+access = access
+secret = secret
+bucket = bucket
