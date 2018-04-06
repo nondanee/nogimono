@@ -17,7 +17,9 @@ Python3 & aiohttp & MySQL & Vanilla JS
 ## 致谢
 
 sparksuite/SimpleMDE (https://github.com/sparksuite/simplemde-markdown-editor)
+
 Rovak/InlineAttachment (https://github.com/Rovak/InlineAttachment)
+
 markedjs/marked (https://github.com/markedjs/marked)
 
 ## 接口
