@@ -1,26 +1,21 @@
 # 乃木物
 
-介系里没有用过的船新版本
-
-Python3 & aiohttp & MySQL & Vanilla JS
+介系里没有用过的船新版本  
+Python3 & aiohttp & MySQL & Vanilla JS  
 
 ## 概览
 
-被消失的多空行和颜文字无意触发markdown解析的问题折磨得死去活来
-
-有点后悔强上markdown，本来方便的语法规范反而碍手碍脚，一通屏蔽后感觉完全失去价值
-
-说到底还是自己不可能去造编辑器的轮子，一辈子都不可能的，就只好硬着头皮一通魔改......
+被消失的多空行和颜文字无意触发markdown解析的问题折磨得死去活来  
+有点后悔强上markdown，本来方便的语法规范反而碍手碍脚，一通屏蔽后感觉完全失去价值  
+说到底还是自己不可能去造编辑器的轮子，一辈子都不可能的，就只好硬着头皮一通魔改......  
 
 <img src="https://user-images.githubusercontent.com/26399680/38435334-f01e8a30-3a03-11e8-9eca-b95d7341b48b.png" width=100%/>
 
 ## 致谢
 
-sparksuite/SimpleMDE (https://github.com/sparksuite/simplemde-markdown-editor)
-
-Rovak/InlineAttachment (https://github.com/Rovak/InlineAttachment)
-
-markedjs/marked (https://github.com/markedjs/marked)
+sparksuite/SimpleMDE (https://github.com/sparksuite/simplemde-markdown-editor)  
+Rovak/InlineAttachment (https://github.com/Rovak/InlineAttachment)  
+markedjs/marked (https://github.com/markedjs/marked)  
 
 ## 接口
 
@@ -30,22 +25,19 @@ markedjs/marked (https://github.com/markedjs/marked)
 >
 >也不知道大佬是怎么优雅地实现的，我用JOIN嵌了三层，还有个循环查库，删除那个感觉还递归了，开销巨大但是没有办法。都怪自己没太菜，不会用框架就只能强行写语句......
 
-使用请求Headers中的`uid`和`token`字段验证身份
-
-POST请求内容类型指定为`application/x-www-form-urlencoded`
-
-返回数据格式均为
+使用请求Headers中的`uid`和`token`字段验证身份  
+POST请求内容类型指定为`application/x-www-form-urlencoded`  
+返回数据格式均为  
 ```
 {
     "code": ???,
     "data": ???,
     "message": "???"
 }
-```
+```  
+以下只说明有效请求的data部分  
 
-以下只分析有效请求的data部分
-
-#### 创建评论 
+### 创建评论 
 
 POST `/api/comment`
 
@@ -53,7 +45,7 @@ POST `/api/comment`
 fid={文章ID}&message={评论内容}
 ```
 
-#### 删除评论 
+### 删除评论 
 
 DELETE `/api/comment`
 
@@ -62,7 +54,7 @@ cid={评论ID}
 ```
 
 
-#### 评论列表
+### 评论列表
 GET `/api/comment`
 
 ```
@@ -100,7 +92,7 @@ GET `/api/comment`
 ]
 ```
 
-#### 创建回复
+### 创建回复
 
 POST `/api/reply`
 
@@ -109,7 +101,7 @@ cid={评论ID}&message={回复内容}
 ```
 
 
-#### 回复列表
+### 回复列表
 GET `/api/reply`
 
 ```
@@ -144,7 +136,7 @@ GET `/api/reply`
 }
 ```
 
-#### 通知列表
+### 通知列表
 
 GET `/api/notification`
 
