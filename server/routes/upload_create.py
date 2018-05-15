@@ -39,6 +39,7 @@ def route(request):
                 yield from cursor.execute('''
                     INSERT INTO article VALUES(%s,%s)
                 ''',(fid,""))
+                yield from connect.commit()
                 yield from cursor.close()
                 connect.close()
             

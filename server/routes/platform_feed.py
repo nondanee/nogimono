@@ -52,7 +52,7 @@ def route(request):
             cut.subtitle,
             cut.snippet,
             cut.images,
-            cut.status,
+            cut.cdn,
             user.nickname
             from(
                 select
@@ -64,7 +64,7 @@ def route(request):
                 feed.subtitle,
                 feed.snippet,
                 feed.images,
-                feed.status
+                feed.cdn
                 from feed
                 where feed.status = 1
                 %s
@@ -82,20 +82,30 @@ def route(request):
 
     for line in out:
 
-        if line[7]:
+        if line[7] == 1:
             prefix = "http://{}".format(request.app["qiniu_domain"])
-            suffix = "?imageView2/1/w/250/h/200/q/80"
-        else:
+            target = "/" + str(line[0]).zfill(8) + "/"
+            suffix = "/thumbnail"
+        elif line[7] == 0:
             prefix = "https://{}/photo".format(request.app["server_domain"])
+            target = "/" + str(line[0]).zfill(8) + "/"
+            suffix = ""
+        elif line[7] == -1:
+            prefix = "https://nogimono.tk/temp"
+            target = "/" + str(line[0]).zfill(8) + "/"
+            suffix = ""
+        else:
+            prefix = ""
+            target = ""
             suffix = ""
 
-        images = line[6].split(",")
+        images = list(filter(None,line[6].split(",")))
+        images = [{"image": prefix + target + image + suffix} for image in images]
+        
         if len(images) >= 3:
-            images_dealt = []
-            for n in range(0,3):
-                images_dealt.append({"image":"{}/{}/{}{}".format(prefix,str(line[0]).zfill(8),images[n],suffix)})
+            images_dealt = images[0:3]
         elif len(images) >= 1:
-            images_dealt = [{"image":"{}/{}/{}{}".format(prefix,str(line[0]).zfill(8),images[0],suffix)}]
+            images_dealt = [images[0]]
         else:
             images_dealt = None
 

@@ -51,10 +51,12 @@ def route(request):
     provider = out[6]
     article = out[7]
 
-    if cdn:
+    if cdn == 1:
         article = re.sub(r'([\d|a-f]{32}\.(jpg|png|gif))','http://{}/{}/\g<1>'.format(request.app["qiniu_domain"],fid),article)
-    elif cdn:
+    elif cdn == 0:
         article = re.sub(r'([\d|a-f]{32}\.(jpg|png|gif))','/photo/{}/\g<1>'.format(fid),article)
+    elif cdn == -1:
+        article = re.sub(r'([\d|a-f]{32}\.(jpg|png|gif))','/temp/{}/\g<1>'.format(fid),article)
 
     json_back = {
         "fid": fid,
@@ -82,7 +84,7 @@ def route(request):
 <body>
 </body>
 <script>var shareData = {}</script>
-</html>'''.format(json_back)
+</html>'''.format(toolbox.jsonify(json_back))
 
         return web.Response(
             text = html_back,

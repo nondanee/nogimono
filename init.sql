@@ -41,6 +41,10 @@ primary key(id),
 foreign key(id) references feed(id) on delete cascade
 );
 
+alter table article modify column id int(8) zerofill not null;
+alter table article add constraint sync foreign key article(id) references feed(id) on delete cascade;
+select * from INFORMATION_SCHEMA.TABLES where TABLE_SCHEMA = 'nogimono' order by create_time desc;
+
 -- create table photo(
 -- name varchar(32) not null,
 -- fid int(8) zerofill not null,
@@ -55,7 +59,7 @@ fid int(8) zerofill not null,
 name varchar(40) not null,
 primary key(fid,name),
 foreign key(fid) references feed(id) on delete cascade
-)
+);
 
 create table captcha(
 phone varchar(20) not null,
@@ -63,7 +67,7 @@ random varchar(6) not null,
 expiration varchar(10) not null,
 primary key(phone),
 foreign key(phone) references user(phone) on delete cascade
-)
+);
 
 create table commentx(
 cid int(8) zerofill auto_increment,
