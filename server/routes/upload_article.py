@@ -73,7 +73,7 @@ def route(request):
 
         cursor = yield from connect.cursor()
 
-        yield from cursor.execute('''SELECT post,type FROM feed WHERE id = %s AND uid = %s AND status <> 0''',(fid,uid))
+        yield from cursor.execute('''SELECT post,type FROM feed WHERE id = %s AND uid = %s''',(fid,uid))
         check = yield from cursor.fetchone()        
 
         try:
