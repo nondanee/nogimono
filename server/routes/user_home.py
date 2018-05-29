@@ -9,12 +9,12 @@ html = '''
 <head>
 	<title>乃木物</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="/static/simplemde.min.css">
-	<link rel="stylesheet" href="/static/home.css">
-	<script src="/static/simplemde.min.js"></script>
-	<script src="/static/inline-attachment.min.js"></script>
-	<script src="/static/codemirror-4.inline-attachment.min.js"></script>
-	<script src="/static/marked.min.js"></script>
+	<link rel="stylesheet" href="/static/css/simplemde.min.css">
+	<link rel="stylesheet" href="/static/css/home.css">
+	<script src="/static/js/simplemde.min.js"></script>
+	<script src="/static/js/inline-attachment.min.js"></script>
+	<script src="/static/js/codemirror-4.inline-attachment.min.js"></script>
+	<script src="/static/js/marked.min.js"></script>
 </head>
 <body>
 <container>
@@ -37,7 +37,7 @@ html = '''
 	</div>
 </container>
 </body>
-<script src="/static/home.js"></script>
+<script src="/static/js/home.js"></script>
 </html>
 '''
 

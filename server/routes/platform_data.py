@@ -76,9 +76,9 @@ def route(request):
     <meta charset="utf-8">
     <meta name="theme-color" content="#812990">
     <title>乃木物</title>
-    <link rel="stylesheet" type="text/css" href="/static/view.css"/>
-    <script src="/static/marked.min.js"></script>
-    <script src="/static/view.js"></script>
+    <link rel="stylesheet" type="text/css" href="/static/css/view.css"/>
+    <script src="/static/js/marked.min.js"></script>
+    <script src="/static/js/view.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 </head>
 <body>
