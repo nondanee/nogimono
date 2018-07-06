@@ -37,6 +37,7 @@ foreign key(uid) references user(id) on delete cascade on update cascade
 create table article(
 id int(8) zerofill not null,
 text mediumtext,
+raw mediumtext,
 primary key(id),
 foreign key(id) references feed(id) on delete cascade
 );

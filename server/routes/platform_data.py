@@ -3,6 +3,7 @@ import re
 from . import toolbox
 from aiohttp import web
 from aiohttp_session import get_session
+image_picker = re.compile(r'([\d|a-f]{32}\.(jpg|png|gif))')
 
 @asyncio.coroutine
 def route(request):
@@ -20,7 +21,8 @@ def route(request):
             target.subtitle,
             target.cdn,
             user.nickname,
-            article.text
+            article.text,
+            article.raw
             from(
                 select
                 feed.id,
@@ -50,13 +52,17 @@ def route(request):
     cdn = out[5]
     provider = out[6]
     article = out[7]
+    raw = out[8] if out[8] else ''
 
     if cdn == 1:
-        article = re.sub(r'([\d|a-f]{32}\.(jpg|png|gif))','http://{}/{}/\g<1>'.format(request.app["qiniu_domain"],fid),article)
+        article = image_picker.sub('http://{}/{}/\g<1>'.format(request.app["qiniu_domain"],fid),article)
+        raw = image_picker.sub('http://{}/{}/\g<1>'.format(request.app["qiniu_domain"],fid),raw)
     elif cdn == 0:
-        article = re.sub(r'([\d|a-f]{32}\.(jpg|png|gif))','/photo/{}/\g<1>'.format(fid),article)
+        article = image_picker.sub('/photo/{}/\g<1>'.format(fid),article)
+        raw = image_picker.sub('/photo/{}/\g<1>'.format(fid),raw)
     elif cdn == -1:
-        article = re.sub(r'([\d|a-f]{32}\.(jpg|png|gif))','/temp/{}/\g<1>'.format(fid),article)
+        article = image_picker.sub('/temp/{}/\g<1>'.format(fid),article)
+        raw = image_picker.sub('/temp/{}/\g<1>'.format(fid),raw)
 
     json_back = {
         "fid": fid,
@@ -65,7 +71,8 @@ def route(request):
         "provider": provider,
         "title": title,
         "subtitle": subtitle,
-        "article": article
+        "article": article,
+        "raw": raw
     }
 
     if request.match_info["type"] == "view":

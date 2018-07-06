@@ -1,0 +1,530 @@
+[
+    {
+        "portrait": "https://aidoru.tk/avatar/akimoto-manatsu.jpg?t=20180601", 
+        "rome": "akimoto-manatsu", 
+        "name": "秋元真夏",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/ikuta-erika.jpg?t=20180601", 
+        "rome": "ikuta-erika", 
+        "name": "生田絵梨花",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/iguchi-mao.jpg?t=20180601", 
+        "rome": "iguchi-mao", 
+        "name": "井口眞緒",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/ikoma-rina.jpg?t=20180601", 
+        "rome": "ikoma-rina", 
+        "name": "生駒里奈",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/ishimori-nijika.jpg?t=20180601", 
+        "rome": "ishimori-nijika", 
+        "name": "石森虹花",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/itou-karin.jpg?t=20180601", 
+        "rome": "itou-karin", 
+        "name": "伊藤かりん",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/itou-junna.jpg?t=20180601", 
+        "rome": "itou-junna", 
+        "name": "伊藤純奈",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/itou-marika.jpg?t=20180601", 
+        "rome": "itou-marika", 
+        "name": "伊藤万理華",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/itou-riria.jpg?t=20180601", 
+        "rome": "itou-riria", 
+        "name": "伊藤理々杏",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/inoue-sayuri.jpg?t=20180601", 
+        "rome": "inoue-sayuri", 
+        "name": "井上小百合",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/imaizumi-yui.jpg?t=20180601", 
+        "rome": "imaizumi-yui", 
+        "name": "今泉佑唯",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/iwamoto-renka.jpg?t=20180601", 
+        "rome": "iwamoto-renka", 
+        "name": "岩本蓮加",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/uemura-rina.jpg?t=20180601", 
+        "rome": "uemura-rina", 
+        "name": "上村莉菜",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/ushio-sarina.jpg?t=20180601", 
+        "rome": "ushio-sarina", 
+        "name": "潮紗理菜",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/umezawa-minami.jpg?t=20180601", 
+        "rome": "umezawa-minami", 
+        "name": "梅澤美波",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/unei-sutaffu.jpg?t=20180601", 
+        "rome": "unei-sutaffu", 
+        "name": "運営スタッフ",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/etou-misa.jpg?t=20180601", 
+        "rome": "etou-misa", 
+        "name": "衛藤美彩",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/oozono-momoko.jpg?t=20180601", 
+        "rome": "oozono-momoko", 
+        "name": "大園桃子",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/ozeki-rika.jpg?t=20180601", 
+        "rome": "ozeki-rika", 
+        "name": "尾関梨香",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/oda-nana.jpg?t=20180601", 
+        "rome": "oda-nana", 
+        "name": "織田奈那",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/kakizaki-memi.jpg?t=20180601", 
+        "rome": "kakizaki-memi", 
+        "name": "柿崎芽実",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/kageyama-yuuka.jpg?t=20180601", 
+        "rome": "kageyama-yuuka", 
+        "name": "影山優佳",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/katou-shiho.jpg?t=20180601", 
+        "rome": "katou-shiho", 
+        "name": "加藤史帆",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/kanemura-miku.jpg?t=20180601", 
+        "rome": "kanemura-miku", 
+        "name": "金村美玖",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/kawago-hina.jpg?t=20180601", 
+        "rome": "kawago-hina", 
+        "name": "川後陽菜",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/kawata-hina.jpg?t=20180601", 
+        "rome": "kawata-hina", 
+        "name": "河田陽菜",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/kawamura-mahiro.jpg?t=20180601", 
+        "rome": "kawamura-mahiro", 
+        "name": "川村真洋",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/kitano-hinako.jpg?t=20180601", 
+        "rome": "kitano-hinako", 
+        "name": "北野日奈子",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/kubo-shiori.jpg?t=20180601", 
+        "rome": "kubo-shiori", 
+        "name": "久保史緒里",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/koike-minami.jpg?t=20180601", 
+        "rome": "koike-minami", 
+        "name": "小池美波",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/kosaka-nao.jpg?t=20180601", 
+        "rome": "kosaka-nao", 
+        "name": "小坂菜緒",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/kobayashi-yui.jpg?t=20180601", 
+        "rome": "kobayashi-yui", 
+        "name": "小林由依",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/saitou-asuka.jpg?t=20180601", 
+        "rome": "saitou-asuka", 
+        "name": "齋藤飛鳥",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/saitou-kyouko.jpg?t=20180601", 
+        "rome": "saitou-kyouko", 
+        "name": "齊藤京子",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/saitou-chiharu.jpg?t=20180601", 
+        "rome": "saitou-chiharu", 
+        "name": "斎藤ちはる",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/saitou-fuyuka.jpg?t=20180601", 
+        "rome": "saitou-fuyuka", 
+        "name": "齋藤冬優花",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/saitou-yuuri.jpg?t=20180601", 
+        "rome": "saitou-yuuri", 
+        "name": "斉藤優里",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/sakaguchi-tamami.jpg?t=20180601", 
+        "rome": "sakaguchi-tamami", 
+        "name": "阪口珠美",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/sagara-iori.jpg?t=20180601", 
+        "rome": "sagara-iori", 
+        "name": "相楽伊織",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/sakurai-reika.jpg?t=20180601", 
+        "rome": "sakurai-reika", 
+        "name": "桜井玲香",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/sasaki-kumi.jpg?t=20180601", 
+        "rome": "sasaki-kumi", 
+        "name": "佐々木久美",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/sasaki-kotoko.jpg?t=20180601", 
+        "rome": "sasaki-kotoko", 
+        "name": "佐々木琴子",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/sasaki-mirei.jpg?t=20180601", 
+        "rome": "sasaki-mirei", 
+        "name": "佐々木美玲",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/satou-kaede.jpg?t=20180601", 
+        "rome": "satou-kaede", 
+        "name": "佐藤楓",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/satou-shiori.jpg?t=20180601", 
+        "rome": "satou-shiori", 
+        "name": "佐藤詩織",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/shida-manaka.jpg?t=20180601", 
+        "rome": "shida-manaka", 
+        "name": "志田愛佳",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/shiraishi-mai.jpg?t=20180601", 
+        "rome": "shiraishi-mai", 
+        "name": "白石麻衣",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/shinuchi-mai.jpg?t=20180601", 
+        "rome": "shinuchi-mai", 
+        "name": "新内眞衣",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/sugai-yuuka.jpg?t=20180601", 
+        "rome": "sugai-yuuka", 
+        "name": "菅井友香",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/suzuki-ayane.jpg?t=20180601", 
+        "rome": "suzuki-ayane", 
+        "name": "鈴木絢音",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/suzumoto-miyu.jpg?t=20180601", 
+        "rome": "suzumoto-miyu", 
+        "name": "鈴本美愉",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/takase-mana.jpg?t=20180601", 
+        "rome": "takase-mana", 
+        "name": "高瀬愛奈",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/takamoto-ayaka.jpg?t=20180601", 
+        "rome": "takamoto-ayaka", 
+        "name": "高本彩花",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/takayama-kazumi.jpg?t=20180601", 
+        "rome": "takayama-kazumi", 
+        "name": "高山一実",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/terada-ranze.jpg?t=20180601", 
+        "rome": "terada-ranze", 
+        "name": "寺田蘭世",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/tomita-suzuka.jpg?t=20180601", 
+        "rome": "tomita-suzuka", 
+        "name": "富田鈴花",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/nagasawa-nanako.jpg?t=20180601", 
+        "rome": "nagasawa-nanako", 
+        "name": "長沢菜々香",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/nakada-kana.jpg?t=20180601", 
+        "rome": "nakada-kana", 
+        "name": "中田花奈",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/nagahama-neru.jpg?t=20180601", 
+        "rome": "nagahama-neru", 
+        "name": "長濱ねる",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/nakamura-reno.jpg?t=20180601", 
+        "rome": "nakamura-reno", 
+        "name": "中村麗乃",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/nakamoto-himeka.jpg?t=20180601", 
+        "rome": "nakamoto-himeka", 
+        "name": "中元日芽香",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/nishino-nanase.jpg?t=20180601", 
+        "rome": "nishino-nanase", 
+        "name": "西野七瀬",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/nibu-akari.jpg?t=20180601", 
+        "rome": "nibu-akari", 
+        "name": "丹生明里",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/noujou-ami.jpg?t=20180601", 
+        "rome": "noujou-ami", 
+        "name": "能條愛未",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/habu-mizuho.jpg?t=20180601", 
+        "rome": "habu-mizuho", 
+        "name": "土生瑞穂",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/hamagisi-hiyori.jpg?t=20180601", 
+        "rome": "hamagisi-hiyori", 
+        "name": "濱岸ひより",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/harada-aoi.jpg?t=20180601", 
+        "rome": "harada-aoi", 
+        "name": "原田葵",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/higashimura-mei.jpg?t=20180601", 
+        "rome": "higashimura-mei", 
+        "name": "東村芽依",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/higuchi-hina.jpg?t=20180601", 
+        "rome": "higuchi-hina", 
+        "name": "樋口日奈",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/hirate-yurina.jpg?t=20180601", 
+        "rome": "hirate-yurina", 
+        "name": "平手友梨奈",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/hoshino-minami.jpg?t=20180601", 
+        "rome": "hoshino-minami", 
+        "name": "星野みなみ",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/hori-miona.jpg?t=20180601", 
+        "rome": "hori-miona", 
+        "name": "堀未央奈",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/matsuda-konoka.jpg?t=20180601", 
+        "rome": "matsuda-konoka", 
+        "name": "松田好花",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/matsumura-sayuri.jpg?t=20180601", 
+        "rome": "matsumura-sayuri", 
+        "name": "松村沙友理",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/miyata-manamo.jpg?t=20180601", 
+        "rome": "miyata-manamo", 
+        "name": "宮田愛萌",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/mukai-hazuki.jpg?t=20180601", 
+        "rome": "mukai-hazuki", 
+        "name": "向井葉月",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/moriya-akane.jpg?t=20180601", 
+        "rome": "moriya-akane", 
+        "name": "守屋茜",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/yamazaki-rena.jpg?t=20180601", 
+        "rome": "yamazaki-rena", 
+        "name": "山崎怜奈",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/yamashita-mizuki.jpg?t=20180601", 
+        "rome": "yamashita-mizuki", 
+        "name": "山下美月",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/yoshida-ayano-christie.jpg?t=20180601", 
+        "rome": "yoshida-ayano-christie", 
+        "name": "吉田綾乃クリスティー",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/yoda-yuuki.jpg?t=20180601", 
+        "rome": "yoda-yuuki", 
+        "name": "与田祐希",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/yonetani-nanami.jpg?t=20180601", 
+        "rome": "yonetani-nanami", 
+        "name": "米谷奈々未",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/wakatsuki-yumi.jpg?t=20180601", 
+        "rome": "wakatsuki-yumi", 
+        "name": "若月佑美",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/wada-maaya.jpg?t=20180601", 
+        "rome": "wada-maaya", 
+        "name": "和田まあや",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/watanabe-miho.jpg?t=20180601", 
+        "rome": "watanabe-miho", 
+        "name": "渡邉美穂",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/watanabe-miria.jpg?t=20180601", 
+        "rome": "watanabe-miria", 
+        "name": "渡辺みり愛",
+        "group": "nogizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/watanabe-rika.jpg?t=20180601", 
+        "rome": "watanabe-rika", 
+        "name": "渡辺梨加",
+        "group": "keyakizaka"
+    }, 
+    {
+        "portrait": "https://aidoru.tk/avatar/watanabe-risa.jpg?t=20180601", 
+        "rome": "watanabe-risa", 
+        "name": "渡邉理佐",
+        "group": "keyakizaka"
+    }
+]

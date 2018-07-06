@@ -16,10 +16,13 @@ def time_stamp(time_set):
 def type_to_number(type_string):
     check = {"all":0,"blog":1,"magazine":2,"news":3}
     if type_string in check: return check[type_string]
+    try: return int(type_string)
+    except: pass
 
 def number_to_type(type_number):
     check = {1:"blog",2:"magazine",3:"news"}
     if type_number in check: return check[type_number]
+    else: return type_number
 
 def javaify(code=200,message="ok",data=None):
     json_dict = {
