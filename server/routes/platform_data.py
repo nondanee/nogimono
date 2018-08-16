@@ -21,6 +21,8 @@ def route(request):
             target.subtitle,
             target.cdn,
             user.nickname,
+            user.introduction,
+            user.avatar,
             article.text,
             article.raw
             from(
@@ -50,9 +52,11 @@ def route(request):
     title = out[3]
     subtitle = out[4]
     cdn = out[5]
-    provider = out[6]
-    article = out[7]
-    raw = out[8] if out[8] else ''
+    provider_name = out[6]
+    provider_introduction = out[7]
+    provider_avatar = out[8]
+    article = out[9]
+    raw = out[10] if out[10] else ''
 
     if cdn == 1:
         article = image_picker.sub('http://{}/{}/\g<1>'.format(request.app["qiniu_domain"],fid),article)
@@ -68,7 +72,11 @@ def route(request):
         "fid": fid,
         "post": post,
         "type": category,
-        "provider": provider,
+        "provider": {
+            "name": provider_name,
+            "avatar": provider_avatar,
+            "introduction": provider_introduction
+        },
         "title": title,
         "subtitle": subtitle,
         "article": article,
