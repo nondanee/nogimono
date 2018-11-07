@@ -58,12 +58,12 @@ def route(request):
     article = out[9]
     raw = out[10] if out[10] else ''
 
-    if cdn == 1:
-        article = image_picker.sub('http://{}/{}/\g<1>'.format(request.app["qiniu_domain"],fid),article)
-        raw = image_picker.sub('http://{}/{}/\g<1>'.format(request.app["qiniu_domain"],fid),raw)
-    elif cdn == 0:
+    if cdn == 0 or cdn == 1:
         article = image_picker.sub('/photo/{}/\g<1>'.format(fid),article)
         raw = image_picker.sub('/photo/{}/\g<1>'.format(fid),raw)
+    elif cdn == 1:
+        article = image_picker.sub('http://{}/{}/\g<1>'.format(request.app["qiniu_domain"],fid),article)
+        raw = image_picker.sub('http://{}/{}/\g<1>'.format(request.app["qiniu_domain"],fid),raw)
     elif cdn == -1:
         article = image_picker.sub('/temp/{}/\g<1>'.format(fid),article)
         raw = image_picker.sub('/temp/{}/\g<1>'.format(fid),raw)

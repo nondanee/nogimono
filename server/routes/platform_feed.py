@@ -82,14 +82,14 @@ def route(request):
 
     for line in out:
 
-        if line[7] == 1:
-            prefix = "http://{}".format(request.app["qiniu_domain"])
-            target = "/" + str(line[0]).zfill(8) + "/"
-            suffix = "/thumbnail"
-        elif line[7] == 0:
+        if line[7] == 0 or line[7] == 1:
             prefix = "https://{}/photo".format(request.app["server_domain"])
             target = "/" + str(line[0]).zfill(8) + "/"
             suffix = ""
+        elif line[7] == 1:
+            prefix = "http://{}".format(request.app["qiniu_domain"])
+            target = "/" + str(line[0]).zfill(8) + "/"
+            suffix = "/thumbnail"
         elif line[7] == -1:
             prefix = "https://nogimono.tk/temp"
             target = "/" + str(line[0]).zfill(8) + "/"
