@@ -1,0 +1,5 @@
+aiohttp
+aiohttp_session
+aiomysql
+pytz
+pillow
